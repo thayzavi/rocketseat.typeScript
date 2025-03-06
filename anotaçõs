@@ -1,0 +1,2 @@
+// npm i -D typescript - intall dependencias
+// npx tsc +nome do arquivo converte de ts para js
