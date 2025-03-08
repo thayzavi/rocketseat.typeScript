@@ -1,2 +1,10 @@
 // npm i -D typescript - intall dependencias
 // npx tsc +nome do arquivo converte de ts para js
+// para passa um parametro para o knex: npm run knex -- -h
+// a flag --loader tsx foi descontinuada no Node.js a partir das versões 20.6.0 e 18.19.0. Agora, você deve usar --import tsx em vez de --loader tsx.
+// comando certo para executa no json : "scripts": {
+ // "knex": "node --import tsx ./node_modules/.bin/knex"}
+ // up => 
+ //down
+ //Para apagar as últimas migrations executadas no seu banco de dados com Knex => npm run knex -- migrate:rollback
+
